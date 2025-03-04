@@ -1,4 +1,3 @@
-import React from 'react';
 import { Github, Mail, Linkedin, User, BookOpen, Code, Heart } from 'lucide-react';
 
 function App() {
@@ -9,13 +8,13 @@ function App() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between h-16">
             <div className="flex items-center">
-              <span className="text-xl font-bold text-indigo-600">Personal Website</span>
+              <span className="text-xl font-bold text-indigo-600 font-['Bubblegum_Sans']">Personal Website</span>
             </div>
             <div className="flex items-center space-x-4">
-              <a href="#about" className="text-gray-700 hover:text-indigo-600 transition-colors">About Myself</a>
-              <a href="#skills" className="text-gray-700 hover:text-indigo-600 transition-colors">Skills</a>
-              <a href="#projects" className="text-gray-700 hover:text-indigo-600 transition-colors">Projects</a>
-              <a href="#contact" className="text-gray-700 hover:text-indigo-600 transition-colors">Contact Info</a>
+              <a href="#about" className="text-gray-700 hover:text-indigo-600 transition-colors font-['Quicksand'] text-lg">About Myself</a>
+              <a href="#skills" className="text-gray-700 hover:text-indigo-600 transition-colors font-['Quicksand'] text-lg">Skills</a>
+              <a href="#projects" className="text-gray-700 hover:text-indigo-600 transition-colors font-['Quicksand'] text-lg">Projects</a>
+              <a href="#contact" className="text-gray-700 hover:text-indigo-600 transition-colors font-['Quicksand'] text-lg">Contact Info</a>
             </div>
           </div>
         </div>
@@ -27,16 +26,16 @@ function App() {
           <div className="md:flex-shrink-0">
             <img 
               className="h-64 w-full object-cover md:w-64" 
-              src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" 
+              src="/images/lgd.png"
               alt="Computer workspace" 
             />
           </div>
           <div className="p-8">
-            <div className="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Personal Website</div>
-            <h1 className="mt-2 text-3xl leading-8 font-bold tracking-tight text-gray-900 sm:text-4xl">
+            <div className="uppercase tracking-wide text-sm text-indigo-500 font-semibold font-['Quicksand']">Personal Website</div>
+            <h1 className="mt-2 text-3xl leading-8 font-bold tracking-tight text-gray-900 sm:text-4xl font-['Bubblegum_Sans']">
               Welcome to TZF's world
             </h1>
-            <p className="mt-4 max-w-2xl text-xl text-gray-500">
+            <p className="mt-4 max-w-2xl text-xl text-gray-500 font-['Quicksand']">
               This is my personal website, here I'll share my skills, projects and experiences
             </p>
             <div className="mt-6">
@@ -56,7 +55,7 @@ function App() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <User className="mx-auto h-12 w-12 text-indigo-600" />
-            <h2 className="mt-2 text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl">About Myself</h2>
+            <h2 className="mt-2 text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl font-['Bubblegum_Sans']">About Myself</h2>
             <p className="mt-4 text-lg text-gray-500">
               Hello! I am a developer who loves technology. I enjoy creating useful applications and websites to solve practical problems.
               I am constantly learning new technologies and striving to improve my skills. In my free time, I enjoy reading technical books and participating in open source projects.
@@ -70,7 +69,7 @@ function App() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <Code className="mx-auto h-12 w-12 text-indigo-600" />
-            <h2 className="mt-2 text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl">Skills</h2>
+            <h2 className="mt-2 text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl font-['Bubblegum_Sans']">Skills</h2>
             <div className="mt-10">
               <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
                 <div className="pt-6">
@@ -110,13 +109,13 @@ function App() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <BookOpen className="mx-auto h-12 w-12 text-indigo-600" />
-            <h2 className="mt-2 text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl">My Projects</h2>
+            <h2 className="mt-2 text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl font-['Bubblegum_Sans']">My Projects</h2>
             <div className="mt-10">
               <div className="grid grid-cols-1 gap-8 sm:grid-cols-2">
                 <div className="bg-indigo-50 rounded-lg overflow-hidden shadow-lg">
                   <img 
                     className="w-full h-48 object-cover" 
-                    src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" 
+                    src="/images/project1.jpg"
                     alt="Project 1" 
                   />
                   <div className="px-6 py-4">
@@ -140,7 +139,7 @@ function App() {
                 <div className="bg-indigo-50 rounded-lg overflow-hidden shadow-lg">
                   <img 
                     className="w-full h-48 object-cover" 
-                    src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" 
+                    src="/images/project2.jpg"
                     alt="Project 2" 
                   />
                   <div className="px-6 py-4">
@@ -171,7 +170,7 @@ function App() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <Mail className="mx-auto h-12 w-12 text-indigo-600" />
-            <h2 className="mt-2 text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl">Contact Me</h2>
+            <h2 className="mt-2 text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl font-['Bubblegum_Sans']">Contact Me</h2>
             <p className="mt-4 text-lg text-gray-500">
               If you have any questions or collaboration opportunities, please feel free to contact me.
             </p>

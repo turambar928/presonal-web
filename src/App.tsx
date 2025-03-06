@@ -12,7 +12,7 @@ function App() {
           <div className="flex justify-between h-16">
             <div className="flex items-center">
               <span className="text-2xl font-bold bg-gradient-to-r from-blue-500 to-indigo-500 bg-clip-text text-transparent font-['Bubblegum_Sans']">
-                TZF's Space 
+                TZF's Space
               </span>
             </div>
             <div className="flex items-center space-x-8">

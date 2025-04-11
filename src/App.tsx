@@ -99,12 +99,12 @@ function App() {
 
           <section id="projects" className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 mt-16">
             <h2 className="text-2xl font-semibold mb-4">Projects</h2>
-            <p className="text-gray-700">Coming soon: a showcase of my recent work.</p>
+            <p className="text-gray-700">Feel free to view via my GitHub</p>
           </section>
 
           <section id="contact" className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 mt-16 mb-20">
             <h2 className="text-2xl font-semibold mb-4">Contact</h2>
-            <p className="text-gray-700">Feel free to reach out via email at <a href="mailto:your.email@example.com" className="text-blue-600 hover:underline">your.email@example.com</a></p>
+            <p className="text-gray-700">Feel free to reach out via email at <a href="mailto:tzf9282003@163.com" className="text-blue-600 hover:underline">tzf9282003@163.com</a></p>
           </section>
         </div>
       </div>

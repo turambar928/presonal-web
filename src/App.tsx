@@ -57,7 +57,7 @@ function App() {
                     Get in Touch
                   </a>
                   <a
-                      href="https://github.com/your-github"
+                      href="https://github.com/turambar928"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex items-center text-gray-600 hover:text-blue-600"

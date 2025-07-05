@@ -100,7 +100,7 @@ function App() {
                 </span>
               </div>
               <p className="text-lg font-semibold text-gray-800 mb-2">
-                School of Computer Science and Technology, Tongji University, Shanghai, China
+                School of Computer Science and Technology, Tongji University
               </p>
               <p className="text-sm text-gray-600 mb-4 flex items-center">
                 <span className="w-2 h-2 bg-gray-400 rounded-full mr-2"></span>
@@ -130,7 +130,7 @@ function App() {
                 </span>
               </div>
               <p className="text-lg font-semibold text-gray-800 mb-2">
-                Oxford University, UK
+                Oxford University
               </p>
               <p className="text-sm text-gray-600 mb-4 flex items-center">
                 <span className="w-2 h-2 bg-gray-400 rounded-full mr-2"></span>

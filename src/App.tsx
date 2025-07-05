@@ -178,11 +178,11 @@ function App() {
               <ul className="space-y-2 text-gray-700 leading-relaxed">
                 <li className="text-sm flex items-start">
                   <span className="w-1.5 h-1.5 bg-gray-400 rounded-full mr-3 mt-2"></span>
-                  [请添加具体的研究项目和工作内容]
+                  [to be added]
                 </li>
                 <li className="text-sm flex items-start">
                   <span className="w-1.5 h-1.5 bg-gray-400 rounded-full mr-3 mt-2"></span>
-                  [请添加主要职责和成果]
+                  [to be added]
                 </li>
               </ul>
             </div>
@@ -194,7 +194,7 @@ function App() {
                   <div className="w-3 h-3 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-full mr-3"></div>
                   <h3 className="text-xl font-bold text-gray-900">Research Intern</h3>
                 </div>
-                <span className="bg-gradient-to-r from-blue-500 to-cyan-500 text-white px-3 py-1 rounded-full text-xs font-medium">
+                <span className="果bg-gradient-to-r from-blue-500 to-cyan-500 text-white px-3 py-1 rounded-full text-xs font-medium">
                   Current
                 </span>
               </div>

@@ -17,9 +17,6 @@ function App() {
                   <a href="#about" className="hover:text-blue-600 flex items-center">
                     <User className="w-4 h-4 mr-1"/> About
                   </a>
-                  <a href="#skills" className="hover:text-blue-600 flex items-center">
-                    <Code className="w-4 h-4 mr-1"/> Skills
-                  </a>
                   <a href="#education" className="hover:text-blue-600 flex items-center">
                     <BookOpen className="w-4 h-4 mr-1"/> Education
                   </a>
@@ -28,6 +25,9 @@ function App() {
                   </a>
                   <a href="#internships" className="hover:text-blue-600 flex items-center">
                     <Briefcase className="w-4 h-4 mr-1"/> Internship
+                  </a>
+                  <a href="#skills" className="hover:text-blue-600 flex items-center">
+                    <Code className="w-4 h-4 mr-1"/> Skills
                   </a>
                   <a href="#contact" className="hover:text-blue-600 flex items-center">
                     <Mail className="w-4 h-4 mr-1"/> Contact
@@ -90,20 +90,7 @@ function App() {
             </p>
           </section>
 
-          {/* Skills Section */}
-          <section id="skills" className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 mt-16">
-            <h2 className="text-2xl font-bold mb-4">Skills</h2>
-            <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 text-gray-700">
-              <li>Linux</li>
-              <li>SQL</li>
-              <li>TypeScript</li>
-              <li>Python</li>
-              <li>TensorFlow / PyTorch</li>
-              <li>OpenCV</li>
-              <li>C / C++</li>
-              <li>IOT</li>
-            </ul>
-          </section>
+
 
           {/* Education Section */}
           <section id="education" className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 mt-16">
@@ -230,6 +217,55 @@ function App() {
                   Responsible for code maintenance and algorithm analysis and enhancement.
                 </li>
               </ul>
+            </div>
+          </section>
+
+          {/* Skills Section */}
+          <section id="skills" className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 mt-16">
+            <h2 className="text-2xl font-bold mb-6">Skills</h2>
+            
+            <div className="space-y-6">
+              {/* AI & Machine Learning */}
+              <div className="bg-white p-6 rounded-lg shadow-md">
+                <h3 className="text-lg font-semibold text-gray-900 mb-4 flex items-center">
+                  <Code className="w-5 h-5 text-blue-600 mr-2" />
+                  AI & Machine Learning
+                </h3>
+                <div className="flex flex-wrap gap-2">
+                  <span className="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm font-medium">NLP</span>
+                  <span className="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm font-medium">LLM</span>
+                  <span className="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm font-medium">TensorFlow</span>
+                  <span className="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm font-medium">PyTorch</span>
+                  <span className="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm font-medium">OpenCV</span>
+                </div>
+              </div>
+
+              {/* Programming Languages */}
+              <div className="bg-white p-6 rounded-lg shadow-md">
+                <h3 className="text-lg font-semibold text-gray-900 mb-4 flex items-center">
+                  <Code className="w-5 h-5 text-green-600 mr-2" />
+                  Programming Languages
+                </h3>
+                <div className="flex flex-wrap gap-2">
+                  <span className="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm font-medium">Python</span>
+                  <span className="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm font-medium">C / C++</span>
+                  <span className="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm font-medium">SQL</span>
+                  <span className="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm font-medium">TypeScript</span>
+                </div>
+              </div>
+
+              {/* Tools & Systems */}
+              <div className="bg-white p-6 rounded-lg shadow-md">
+                <h3 className="text-lg font-semibold text-gray-900 mb-4 flex items-center">
+                  <Code className="w-5 h-5 text-purple-600 mr-2" />
+                  Tools & Systems
+                </h3>
+                <div className="flex flex-wrap gap-2">
+                  <span className="px-3 py-1 bg-purple-100 text-purple-800 rounded-full text-sm font-medium">Linux</span>
+                  <span className="px-3 py-1 bg-purple-100 text-purple-800 rounded-full text-sm font-medium">Git</span>
+                  <span className="px-3 py-1 bg-purple-100 text-purple-800 rounded-full text-sm font-medium">Docker</span>
+                </div>
+              </div>
             </div>
           </section>
 
